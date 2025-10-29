@@ -1,6 +1,4 @@
-Dhimas Wildan Nur Zakariya
-H1D023050
-
+<h1>Dhimas Wildan Nur Zakariya - H1D023050 </h1>
 <h2> Program Sederhana Perhitungan Nilai "Persentase Dari (Nilai Objek)" </h2>
 
 ```
@@ -9,7 +7,7 @@ double hitungPersentase(double persen, double total) {
 }
 
 ```
-ini adalah awal pemanggilan fungsi hitungPersentase yang berisikan nilai persen dan total sebagai double/desimal
+<p> ini adalah awal pemanggilan fungsi hitungPersentase yang berisikan nilai persen dan total sebagai double/desimal </p>
 
 ```
 Future<void> main() async {
@@ -28,6 +26,7 @@ Future<void> main() async {
   print("Selesai.");
 }
 ```
+<p> 
 ini adalah program utamanya, nilai yang sebelumnya akan masuk ke program ini.
 pertama-tama, program akan melakukan pencetakan "Memulai...".
 kemudian program menetapkan nilai statis dengan nilai persen yang dicari adalah 20 dan nilai objeknya 150
@@ -37,6 +36,7 @@ kemudian program akan mengeluarkan nilai baru yaitu nilai hasil dengan tipe doub
 dengan memanggil fungsi perhitungan hitungPersentase sembari mencetak "Hasil: persen dari objek adalah hasil"
 
 di sini, program menunggu hingga data diproses dan meneruskannya dengan mencetak "Selesai"
+</p>
 
 ```
 Future<void> prosesData() async {
@@ -45,6 +45,8 @@ Future<void> prosesData() async {
   print("Data selesai diproses.");
 }
 ```
-Pada blok kode ini, program akan kembali dengan fungsi Future-nya dan mencetak informasi bahwa data sedang diproses.
+<p>
+  Pada blok kode ini, program akan kembali dengan fungsi Future-nya dan mencetak informasi bahwa data sedang diproses.
 di sini, program akan melakukan jeda selama 2 detik untuk prosesData sehingga menunggu. 
 setelah timer selesai, informasi selesai akan dicetak.
+</p>
